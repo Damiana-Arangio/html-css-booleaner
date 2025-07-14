@@ -68,7 +68,7 @@ h1 {
 /* Layout tabella */
 table {
     table-layout: fixed;                                    /* Imposta layout fisso */
-    width: 1200px; */
+    width: 1200px;
 }
 
 /* Colori background */
@@ -80,3 +80,21 @@ table {
     background-color: rgb(162, 213, 243);
 }
 
+/*! ARTICOLI CONSIGLIATI */
+
+/* Monitor */
+#bg-monitor {
+    background-image: url(../img/monitor.jpg);
+}
+
+/* Grafico */
+#bg-grafico {
+    background-image: url(../img/graph.jpg);
+}
+
+/* Layout articoli consigliati */
+.layout-articoli-consigliati {
+    height: 200px;
+    width: 268px;
+    background-repeat: no-repeat;
+}
