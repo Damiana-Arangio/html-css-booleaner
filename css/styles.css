@@ -1,4 +1,8 @@
 /*! REGOLE GENERICHE */
+a {
+    text-decoration: none;
+    color: #01b2e3;
+}
 
 /*! HEADER */
 
@@ -6,7 +10,7 @@
 body > header {                                          /* Seleziona Header figlio diretto di body  */
     height: 100px;
     width: auto;
-    background-color: #059bff;
+    background-color: #06ade0;
     background-image: url(../img/pattern.png);
     background-size: 28%;
 }
@@ -18,4 +22,27 @@ body > header {                                          /* Seleziona Header fig
 /* Header articolo */
 h1 {
     font-size: 2rem;
+}
+
+
+/*! CARATTERISTICHE TESTO */
+
+/* Colori */
+.text-color-grey {
+    color: rgb(147, 147, 147);
+} 
+
+/* Peso */
+.font-weight-bold {
+    font-weight: bold;
+}
+
+/* Stile */
+.font-style-normal {
+    font-style: normal;
+}
+
+/* Dimensione */
+.font-size-12px {
+    font-size: 12px;
 }
