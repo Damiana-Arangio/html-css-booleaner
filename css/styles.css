@@ -4,6 +4,9 @@ a {
     color: #01b2e3;
 }
 
+#contenitore-main {
+    max-width: 1200px;
+}
 /*! HEADER */
 
 /* Header pagina */
@@ -21,7 +24,7 @@ body > header {                                          /* Seleziona Header fig
 
 /* Header articolo */
 h1 {
-    font-size: 2rem;
+    font-size: 2.8rem;
 }
 
 
@@ -31,6 +34,14 @@ h1 {
 .text-color-grey {
     color: rgb(147, 147, 147);
 } 
+
+.text-color-white {
+    color: rgb(255, 255, 255);
+}
+
+.bg-color-yellow {
+    background-color: yellow;
+}
 
 /* Peso */
 .font-weight-bold {
@@ -46,3 +57,26 @@ h1 {
 .font-size-12px {
     font-size: 12px;
 }
+
+/* Allineamento */
+.text-align-left {
+    text-align: left;
+}
+
+/*! TABELLA */
+
+/* Layout tabella */
+table {
+    table-layout: fixed;                                    /* Imposta layout fisso */
+    width: 1200px; */
+}
+
+/* Colori background */
+#bg-color-blue {
+    background-color: rgb(73, 170, 227);
+}
+
+.bg-color-lightblue {
+    background-color: rgb(162, 213, 243);
+}
+
