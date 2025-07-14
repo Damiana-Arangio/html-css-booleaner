@@ -1,7 +1,7 @@
 /* REGOLE GENERICHE */
 
 /* HEADER */
-header {
+body > header {                                          /* Seleziona Header figlio diretto di body  */
     height: 100px;
     width: auto;
     background-color: #059bff;
