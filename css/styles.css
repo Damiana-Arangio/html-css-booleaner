@@ -1,6 +1,8 @@
-/* REGOLE GENERICHE */
+/*! REGOLE GENERICHE */
 
-/* HEADER */
+/*! HEADER */
+
+/* Header pagina */
 body > header {                                          /* Seleziona Header figlio diretto di body  */
     height: 100px;
     width: auto;
@@ -11,4 +13,9 @@ body > header {                                          /* Seleziona Header fig
 
 #logo {
     width: 185px;
+}
+
+/* Header articolo */
+h1 {
+    font-size: 2rem;
 }
